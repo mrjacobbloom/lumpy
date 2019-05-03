@@ -24,17 +24,15 @@ qmake && make
 
 ## Instructions
 
-Move mouse                Move the cursor on the plane
-Click/Space/Draw button   Draw a lump
-Drag                      Change the camera angle
-WASD/Arrow buttons
-  - 1st-Person Pode:  Move the camera
-  - God Mode: Move the cursor (relative to camera)
-
-Cursor Size               Change the radius of the cursor
-Mouse drag                Rotate the view
-Scroll wheel              Zoom the view
-Pause/Animate             Pause/resume the moving light source
+| Key/Action              | Result                          |
+| ----------------------- | ------------------------------- |
+| Move mouse              | Move the cursor on the plane    |
+| Click/Space/Draw button | Draw a lump                     |
+| Drag                    | Change the camera angle         |
+| WASD/Arrow buttons      | **1st-Person Mode:**  Move the camera <br/> **God Mode:** Move the cursor (relative to camera) |
+| Cursor Size             | Change the radius of the cursor |
+| Mouse drag              | Rotate the view                 |
+| Scroll wheel            | Zoom the view                   |
 
 ## Technical Details
 
@@ -52,9 +50,10 @@ Pause/Animate             Pause/resume the moving light source
   and look down slightly as you climb down.
 - First-person velocity calculations and damping are handled in a timer that
   runs 60 times a second because we can't trust vsync.
-- Plants are rendered using a Display List (borrowed from last year's final
-  project). The height under each plant is determined using an image export of
-  the lump map buffer generated when a lump is added.
+- Plants are rendered using a Display List (borrowed from
+[last year's final project](https://github.com/mrjacobbloom/fruit)). The height
+under each plant is determined using an image export of the lump map buffer
+generated when a lump is added.
 
 ## Credits
 
