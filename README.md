@@ -28,11 +28,10 @@ qmake && make
 | ----------------------- | ------------------------------- |
 | Move mouse              | Move the cursor on the plane    |
 | Click/Space/Draw button | Draw a lump                     |
-| Drag                    | Change the camera angle         |
+| Drag mouse              | Change the camera angle         |
 | WASD/Arrow buttons      | **1st-Person Mode:**  Move the camera <br/> **God Mode:** Move the cursor (relative to camera) |
-| Cursor Size             | Change the radius of the cursor |
-| Mouse drag              | Rotate the view                 |
 | Scroll wheel            | Zoom the view                   |
+| Cursor Size             | Change the radius of the cursor |
 
 ## Technical Details
 
