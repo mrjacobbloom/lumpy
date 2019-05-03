@@ -1,0 +1,26 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>shaders/render.vert</file>
+    <file>shaders/render.frag</file>
+    <file>shaders/render.god.vert</file>
+    <file>shaders/render.god.frag</file>
+    <file>shaders/addlump.frag</file>
+    <file>shaders/pick.frag</file>
+    <file>shaders/initframebuffer.frag</file>
+    <file>shaders/water.vert</file>
+    <file>shaders/snow.vert</file>
+
+    <file>textures/water.png</file>
+    <file>textures/sand.png</file>
+    <file>textures/grass.png</file>
+    <file>textures/rock.png</file>
+    <file>textures/leaf.png</file>
+
+    <file>textures/sor_sea/sea_bk.JPG</file>
+    <file>textures/sor_sea/sea_dn.JPG</file>
+    <file>textures/sor_sea/sea_ft.JPG</file>
+    <file>textures/sor_sea/sea_lf.JPG</file>
+    <file>textures/sor_sea/sea_rt.JPG</file>
+    <file>textures/sor_sea/sea_up.JPG</file>
+</qresource>
+</RCC>
